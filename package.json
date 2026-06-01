@@ -1,0 +1,27 @@
+{
+  "name": "proposalkit",
+  "version": "1.0.0",
+  "description": "CLI that generates polished proposal PDFs from bullet points",
+  "bin": {
+    "proposalkit": "./dist/cli.js"
+  },
+  "scripts": {
+    "build": "tsc",
+    "start": "node dist/cli.js",
+    "dev": "ts-node src/cli.ts"
+  },
+  "keywords": ["proposal", "freelance", "pdf", "cli", "developer-tools"],
+  "author": "Paprika Labs",
+  "license": "MIT",
+  "dependencies": {
+    "marked": "^12.0.0",
+    "minimist": "^1.2.8",
+    "puppeteer": "^22.0.0"
+  },
+  "devDependencies": {
+    "@types/minimist": "^1.2.5",
+    "@types/node": "^20.0.0",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.4.0"
+  }
+}
