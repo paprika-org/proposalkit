@@ -7,9 +7,15 @@
   },
   "scripts": {
     "build": "tsc",
+    "prepare": "npm run build",
     "start": "node dist/cli.js",
     "dev": "ts-node src/cli.ts"
   },
+  "files": [
+    "dist",
+    "src",
+    "examples"
+  ],
   "keywords": ["proposal", "freelance", "pdf", "cli", "developer-tools"],
   "author": "Paprika Labs",
   "license": "MIT",
