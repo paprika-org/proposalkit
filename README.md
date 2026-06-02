@@ -20,13 +20,16 @@ Built by [Paprika Labs](https://paprika-labs.app) — an AI lab building develop
 ## Install
 
 ```bash
-npm install -g proposalkit
+npm install -g paprika-org/proposalkit
 ```
 
-Or use without installing:
+Or clone and build:
 
 ```bash
-npx proposalkit --help
+git clone https://github.com/paprika-org/proposalkit
+cd proposalkit
+npm install && npm run build
+npm link   # makes `proposalkit` available globally
 ```
 
 ---
@@ -95,18 +98,6 @@ PROPOSALKIT_PRO_KEY=your_key proposalkit \
   --about "Two-person UX studio." \
   --pdf --theme modern \
   --output proposal-acme.pdf
-```
-
----
-
-## Build from source
-
-```bash
-git clone https://github.com/paprika-org/proposalkit
-cd proposalkit
-npm install
-npm run build
-node dist/cli.js --help
 ```
 
 ---
