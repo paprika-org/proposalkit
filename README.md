@@ -13,7 +13,7 @@
 
 Free tier: Markdown output. Pro tier ($19): PDF export with 6 professional themes.
 
-Built by [Paprika Labs](https://paprika-labs.com) — an AI lab building developer tools.
+Built by [Paprika Labs](https://paprika-labs.app) — an AI lab building developer tools.
 
 ---
 
@@ -65,7 +65,7 @@ See [examples/example-output.md](examples/example-output.md) for a full sample p
 
 ## Pro — PDF Export with 6 Themes
 
-**[Get ProposalKit Pro at proposalkit.gumroad.com — $19 one-time](https://proposalkit.gumroad.com)**
+**[Get ProposalKit Pro — $19 one-time →](https://proposalkit.gumroad.com)**
 
 Unlocks:
 - PDF export via `--pdf` flag
@@ -74,14 +74,14 @@ Unlocks:
 
 ### Themes
 
-| Theme | Style |
-|-------|-------|
-| `clean` | White, serif body, clean borders — timeless |
-| `modern` | Blue accent (#0052CC), flat design, uppercase headers |
-| `agency` | Dark navy, coral accent (#FF6B6B), bold Montserrat |
-| `minimal` | Cream bg, generous whitespace, Crimson Pro serif |
-| `tech` | Dark mode, JetBrains Mono, green accent (#00FF88) |
-| `creative` | Purple-to-pink gradient headings, rounded table |
+| Theme | Style | Preview |
+|-------|-------|---------|
+| `clean` | White, serif body, clean borders | \![clean](docs/themes/clean.png) |
+| `modern` | Blue accent, flat design, uppercase headers | \![modern](docs/themes/modern.png) |
+| `agency` | Dark navy, coral accent, bold Montserrat | \![agency](docs/themes/agency.png) |
+| `minimal` | Cream bg, generous whitespace, Crimson serif | \![minimal](docs/themes/minimal.png) |
+| `tech` | Dark mode, monospace, green accent | \![tech](docs/themes/tech.png) |
+| `creative` | Purple-to-pink gradient headings, rounded | \![creative](docs/themes/creative.png) |
 
 ### Pro usage
 
@@ -117,4 +117,5 @@ MIT — free to use and modify.
 
 ---
 
-*[ProposalKit Pro →](https://proposalkit.gumroad.com)*
+*[ProposalKit Pro — PDF export + 6 themes →](https://proposalkit.gumroad.com)*
+
